@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     int count;
     Button countButton;
-    TextView text;
+    TextView countText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,9 +35,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
         countButton = findViewById(R.id.button);
-        text = findViewById(R.id.textView);
+        countText = findViewById(R.id.count_textView);
 
-        text.setText(count+"");
+        countText.setText(count+"");
     }
 
     @Override
@@ -48,6 +48,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void countUp(View view) {
         this.count++;
-        this.text.setText(count+"");
+        this.countText.setText(count+"");
     }
 }
