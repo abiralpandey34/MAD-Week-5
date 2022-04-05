@@ -10,12 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Challenge">
         <activity
-            android:name=".SecondActivity"
-            android:exported="false"
-            android:parentActivityName=".MainActivity"
-            android:label="Add Item"
-            />
-        <activity
             android:name=".MainActivity"
             android:label="Shopping List - Challenge"
             android:exported="true">
